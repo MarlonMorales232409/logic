@@ -6,7 +6,8 @@ namespace Logica
     {
         static void Main(string[] args)
         {
-            Decending.DecendingInN(100, 8);
+
+            SplitArray.ArraySpliter([10,12,14,15,16,18, 20], 2);
 
             /// Dont delete this line
             Console.ReadLine();
