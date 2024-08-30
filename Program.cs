@@ -7,7 +7,8 @@ namespace Logica
         static void Main(string[] args)
         {
 
-            RepeatMe.RepeatString("Marlon", 5);
+            var value = RepeatedChat.HowManyTimesRepeated("Hooolaaaaaaaa mundo;--!!");
+            Console.WriteLine(value);
 
             /// Dont delete this line
             Console.ReadLine();
